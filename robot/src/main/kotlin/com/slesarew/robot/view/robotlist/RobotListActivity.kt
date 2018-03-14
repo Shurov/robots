@@ -19,6 +19,7 @@ import com.slesarew.robot.view.robotdetails.RobotDetailsActivity
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.Disposables
 import io.reactivex.schedulers.Schedulers
+import kotlinx.android.synthetic.main.activity_robot_list.progress
 import com.slesarew.robot.domain.Robot as DomainRobot
 import com.slesarew.robot.view.Robot as ViewRobot
 import kotlinx.android.synthetic.main.activity_robot_list.robot_list as robotList
@@ -79,7 +80,11 @@ class RobotListActivity :
                 .subscribeOn(Schedulers.io())
                 .map { robotMapper(it) }
                 .observeOn(AndroidSchedulers.mainThread())
+                .doOnSubscribe {
+                    progress.visibility = View.VISIBLE
+                }
                 .subscribe { robot: com.slesarew.robot.view.Robot ->
+                    progress.visibility = View.INVISIBLE
                     robots.add(robot)
                     adapter.notifyDataSetChanged()
                 }

@@ -6,6 +6,7 @@
         android:id="@+id/add_robot"
         android:title="@string/add_robot"
         android:icon="@drawable/ic_add"
+        android:contentDescription="@string/add_robot"
         app:showAsAction="always"/>
 
 </menu>

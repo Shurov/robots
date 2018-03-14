@@ -23,6 +23,7 @@ class RobotDetailsActivity : AppCompatActivity() {
 
             title = name
 
+            robotImage.contentDescription = name
             Glide.with(robotImage)
                     .load("https://robohash.org/$name")
                     .into(robotImage)
