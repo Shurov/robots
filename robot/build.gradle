@@ -67,6 +67,7 @@ androidExtensions {
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlinVersion"
     implementation "com.android.support:appcompat-v7:$supportVersion"
+    implementation "com.android.support:recyclerview-v7:$supportVersion"
 
     androidTestImplementation "com.android.support.test:runner:$supportTestVersion"
     androidTestImplementation "com.android.support.test:rules:$supportTestVersion"

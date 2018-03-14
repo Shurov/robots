@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Robots</string>
+    <string name="add_robot">Add robot</string>
 </resources>
