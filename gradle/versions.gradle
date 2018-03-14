@@ -1,0 +1,21 @@
+ext {
+    // Environment
+    androidBuildToolsVersion = '27.0.2'
+    toolsVersion = '3.0.1'
+    kotlinVersion = '1.2.30'
+    jacocoVersion = '0.8.0'
+
+    // Android
+    supportVersion = '27.1.0'
+
+    // Util
+    dokkaVersion = '0.9.16'
+    detektVersion = '1.0.0.RC6-3'
+    uptodateVersion = '1.6.3'
+
+    // Test
+    junitVersion = '4.12'
+    mockitoKotlinVersion = '1.5.0'
+    supportTestVersion = '1.0.1'
+    espressoVersion = '3.0.1'
+}

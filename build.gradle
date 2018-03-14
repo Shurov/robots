@@ -1,0 +1,21 @@
+buildscript {
+    apply from: "$rootDir/gradle/versions.gradle"
+
+    repositories {
+        mavenLocal()
+        jcenter()
+        google()
+    }
+
+    dependencies {
+        classpath "com.android.tools.build:gradle:$toolsVersion"
+    }
+}
+
+allprojects {
+    repositories {
+        mavenLocal()
+        jcenter()
+        google()
+    }
+}
