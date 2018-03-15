@@ -1,12 +1,12 @@
 package com.slesarew.robot.view.robotlist
 
-import com.slesarew.robot.view.robotlist.core.EspressoTest
+import com.slesarew.robot.view.robotlist.core.TestSpecification
 import com.slesarew.robot.view.robotlist.robot.robotdetails.robotDetails
 import com.slesarew.robot.view.robotlist.robot.robotform.robotForm
 import com.slesarew.robot.view.robotlist.robot.robotslist.robotsList
 import org.junit.Test
 
-class RobotTest : EspressoTest() {
+class RobotTest : TestSpecification() {
 
     @Test
     fun should_add_robot() {
