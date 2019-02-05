@@ -1,26 +1,23 @@
 ext {
     // Environment
-    androidBuildToolsVersion = '27.0.2'
-    toolsVersion = '3.0.1'
-    kotlinVersion = '1.2.30'
-    jacocoVersion = '0.8.0'
+    androidBuildToolsVersion = '28.0.3'
+    toolsVersion = '3.3.0'
+    kotlinVersion = '1.3.20'
 
     // Android
-    supportVersion = '27.1.0'
+    supportVersion = '28.0.0'
 
     // Util
-    dokkaVersion = '0.9.16'
-    detektVersion = '1.0.0.RC6-3'
+    detektVersion = '1.0.0.RC8'
     uptodateVersion = '1.6.3'
 
     // Lib
-    glideVersion = '4.6.1'
-    rxAndroidVersion = '2.0.2'
-    rxJavaVersion = '2.1.10'
+    glideVersion = '4.8.0'
+    rxAndroidVersion = '2.1.0'
+    rxJavaVersion = '2.2.6'
 
     // Test
     junitVersion = '4.12'
-    mockitoKotlinVersion = '1.5.0'
-    supportTestVersion = '1.0.1'
-    espressoVersion = '3.0.1'
+    supportTestVersion = '1.0.2'
+    espressoVersion = '3.0.2'
 }
