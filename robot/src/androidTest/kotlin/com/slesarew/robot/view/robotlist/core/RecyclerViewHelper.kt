@@ -25,10 +25,10 @@ internal object RecyclerViewHelper {
     fun getViewHolders(recycler: RecyclerView): List<ViewHolderData> {
         val holders = arrayListOf<ViewHolderData>()
 
-        val adapter = recycler.adapter
+        val adapter = requireNotNull(recycler.adapter)
         val cache = SparseArray<RecyclerView.ViewHolder>()
 
-        for (position in 0 until recycler.adapter.itemCount) {
+        for (position in 0 until requireNotNull(recycler.adapter).itemCount) {
             val itemType = adapter.getItemViewType(position)
             var viewHolder = cache.get(itemType)
 

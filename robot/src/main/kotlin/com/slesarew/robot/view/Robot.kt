@@ -10,7 +10,7 @@ data class Robot(val name: String,
 
     companion object {
 
-        fun name(bundle: Bundle): String {
+        fun name(bundle: Bundle): String? {
             return bundle.getString(KEY)
         }
 

@@ -26,7 +26,7 @@ internal fun isRecyclerEmpty() = object : TypeSafeMatcher<View>() {
 
     override fun matchesSafely(view: View): Boolean {
         if (view is RecyclerView) {
-            return view.adapter.itemCount == 0
+            return requireNotNull(view.adapter).itemCount == 0
         }
         return false
     }
