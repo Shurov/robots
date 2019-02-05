@@ -27,7 +27,7 @@ android {
     buildToolsVersion androidBuildToolsVersion
 
     defaultConfig {
-        applicationId "com.slesarew.robot"
+        applicationId "com.vorush.robot"
         minSdkVersion 21
         targetSdkVersion 28
         versionCode 1
