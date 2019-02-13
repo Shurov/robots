@@ -23,9 +23,9 @@ internal object RecyclerViewHelper {
             }
             adapter.bindViewHolder(viewHolder, position)
 
-            val itemView = viewHolder?.itemView
+            val itemView = viewHolder.itemView
 
-            itemView?.let {
+            itemView.let {
                 val text = it.findViewById<TextView>(R.id.robot_name)
 
                 holders.add(ViewHolderData(text.text.toString()))
