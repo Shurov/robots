@@ -1,12 +1,12 @@
 package com.vorush.robot.view.robotlist
 
-import com.vorush.robot.view.robotlist.core.TestSpecification
+import com.vorush.robot.view.robotlist.core.EspressoTestSpecification
 import com.vorush.robot.view.robotlist.robot.robotdetails.robotDetails
 import com.vorush.robot.view.robotlist.robot.robotform.robotForm
 import com.vorush.robot.view.robotlist.robot.robotslist.robotsList
 import org.junit.Test
 
-class RobotTest : TestSpecification() {
+class RobotTestEspresso : EspressoTestSpecification() {
 
     @Test
     fun should_add_robot() {

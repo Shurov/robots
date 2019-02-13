@@ -80,6 +80,7 @@ dependencies {
     androidTestImplementation("com.android.support.test.espresso:espresso-core:$espressoVersion", {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
+    androidTestImplementation "androidx.test.uiautomator:uiautomator:$uiAutomatorVersion"
 }
 
 tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).all {

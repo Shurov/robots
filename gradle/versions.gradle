@@ -20,4 +20,5 @@ ext {
     junitVersion = '4.12'
     supportTestVersion = '1.0.2'
     espressoVersion = '3.0.2'
+    uiAutomatorVersion = '2.2.0'
 }

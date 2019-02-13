@@ -5,7 +5,7 @@ import com.vorush.robot.view.robotlist.RobotListActivity
 import com.vorush.robot.view.robotlist.core.rx.RxSchedulersAsIdlingResourcesRule
 import org.junit.Rule
 
-abstract class TestSpecification {
+abstract class EspressoTestSpecification {
 
     @get:Rule
     @Suppress("unused")
